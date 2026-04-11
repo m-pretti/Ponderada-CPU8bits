@@ -41,3 +41,9 @@ O sinal de clock sincroniza todas as transições de estado da CPU. Cada transi�
 ## Fluxo de Operação
 
 O ciclo inicia-se com o PC enviando o endereço para o MAR. A instrução é lida da ROM e carregada no IR. A Unidade de Controle decodifica a instrução e direciona o fluxo de dados: dependendo do OpCode, os dados podem ser movidos entre a memória, o Acumulador e o registrador MQ. Ao final de cada instrução, o sistema retorna ao passo inicial para buscar a próxima instrução.
+
+## Dificuldades
+
+Tive muita dificuldade com essa atividade. Havia começado uma CPU com uma lógica, não estava conseguindo resolver o erro. Resolvi refazer considerando algumas recomendações de colegas. Acredito que entreguei algo bem feito mas não vou conseguir gravar um vídeo explicando a atividade.
+
+Agradeço!
